@@ -1,0 +1,7 @@
+run = "cowsay jestem krowa"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "jestem krowa"]
